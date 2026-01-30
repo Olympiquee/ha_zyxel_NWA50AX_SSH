@@ -1,14 +1,7 @@
 {
-  "domain": "ha_zyxel",
-  "name": "Zyxel",
-  "codeowners": ["@zulufoxtrot", "@HennieLP", "@martijnmelchers", "@Igglybuff"],
-  "config_flow": true,
-  "dependencies": [],
-  "documentation": "https://github.com/zulufoxtrot/ha-zyxel",
-  "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/zulufoxtrot/ha-zyxel/issues",
-  "requirements": [
-    "nr7101@git+https://github.com/zulufoxtrot/nr7101.git@v2.0.2"
-  ],
-  "version": "0.2.7"
+  "domain": "ha_zyxel_NWA50AX_SSH",
+  "name": "HA Zyxel NWA50AX SSH",
+  "documentation": "https://github.com/Olympiquee/ha_zyxel_NWA50AX_SSH",
+  "requirements": ["asyncssh>=2.13.0", "paramiko>=2.11.0"],
+  "dependencies": []
 }
